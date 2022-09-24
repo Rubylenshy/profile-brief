@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+:root{
+    --ff-ubuntu: 'Ubuntu Mono', monospace; 
+    --ff-lexend: 'Lexend Deca', sans-serif;
+    /* Primary */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 61%, 54%);
+
+    /* Neutral */
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --dark-blue: hsl(234, 13%, 15%);
+    --grayish-blue: hsl(228, 4%, 55%);
+    --white: hsl(0, 0%, 98%);
+    --fs-sub: 0.85em;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: var(--ff-lexend);
+    background-color: var();
+}
+a,h1,h2,h3,p,span,button{
+    text-decoration: none;
+    color: initial;
+}
+
+button{
+    font-family: var(--ff-lexend);
+    background: var(--very-dark-blue);
+    color: var(--white);
+    display: flex;
+    padding: 7px 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 5px 8px -4px var(--very-dark-blue);
+}
+h2{
+    font-size: 1.0em;
+    color: var();
+    margin: 20px 0;
+}
+h3{
+    font-size: 1.05em;
+}
+body{
+    padding: 40px 10%;
+}
+hr{
+    border: 1px solid var(--very-dark-blue);
+    margin: 15px 0;
+    opacity: .2;
+}
+
+
+.profile-name{
+    display: flex;
+}
+.profile-name img:first-of-type{
+    height: 80px;
+}
+.header{
+    margin-left: 20px;
+}
+.header h1{
+    font-size: 1.45em;
+}
+.summary{
+    margin: 5px 0;
+}
+.extras{
+    display: flex;
+}
+.extras div{
+    margin: 0 5px;
+    font-size: var(--fs-sub);
+    display: flex;
+    align-items: center;
+}
+.extras div img{
+    max-height: 20px;
+    width: 20px;
+    margin:0 5px 0 0;
+}
+
+.contact-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-btn{
+    margin: 5px;
+}
+
+.contact-btn img,
+.tech-stack img{
+    margin-right: 7px;
+    height: 20px;
+    width: 20px;
+}
+.container img{
+    height: 20px;
+    width: 20px;
+}
+
+.tech-stack-btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tech-stack-btn button{
+    margin: 5px;
+}
+
+.position-card{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0;
+}
+.img{
+    background: var(--blue);
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.position-name span{
+    font-size: var(--fs-sub);
+}
+
+.project-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-card{
+    width: 400px;
+    margin-bottom: 30px;
+}
+.project-card a:hover{
+    text-decoration: underline;
+}
+.repo-name{
+    display: flex;
+    align-items: center;
+}
+.repo-name a{
+    color: var(--blue);
+}
+.repo-name img{
+    margin-right: 7px;
+}
+.project-brief{
+    margin: 15px 0;
+    color: var(--grayish-blue);
+}
+.code-lang{
+    display: flex;
+    align-items: center;
+    font-size: var(--fs-sub);
+}
+
+
+.credentials-container{
+    display: flex;
+    align-items: center;
+}
+.credentials-img{
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background: var(--dark-blue);
+}
+.credentials span{
+    font-size: var(--fs-sub);   
+}
+
+
+.about p span{
+    color: var(--blue);
+}
+.interest-btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.interest-btns button{
+    margin: 5px ;
+}
+.interest-btns img{
+    margin-right: 7px;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    body{
+        padding: 40px 5%;
+    }
+    .profile-name{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-name img:first-of-type{
+        margin-bottom: 10px;
+    }
+    .header{
+        text-align: center;
+    }
+    .extras{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .extras div{
+        margin: 5px;
+        font-size: 0.75em;
+    }
+    .extras div img{
+        margin: 0 5px 0 0 !important;
+        height: 20px;
+        width: 20px;
+    }
+}
