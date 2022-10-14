@@ -1,0 +1,35 @@
+[
+  {
+    "icon": "assets/images/js.svg",
+    "interest": "JavaScript"
+  },
+  {
+    "icon": "assets/images/mysql.svg",
+    "interest": "MySQL"
+  },
+  {
+    "icon": "assets/images/html5.svg",
+    "interest": "HTML5"
+  },
+  {
+    "icon": "assets/images/css3.svg",
+    "interest": "CSS3"
+  },
+  {
+    "icon": "assets/images/github-white.svg",
+    "interest": "GitHub"
+  },
+  {
+    "icon": "assets/images/vscode.svg",
+    "interest": "VS Code"
+  },
+  {
+    "icon": "assets/images/php.svg",
+    "interest": "PHP"
+  },
+  {
+    "icon": "assets/images/git.svg",
+    "interest": "GIT"
+  }
+  
+]

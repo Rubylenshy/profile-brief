@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://github.com/Rubylenshy/meet-landing-page",
+    "repoName": "meet-landing-page",
+    "brief": "A web interface for a Video Chat brand",
+    "codeIcon": "assets/images/dot-blue.svg",
+    "code": "CSS"
+  },
+  {
+    "url": "https://github.com/Rubylenshy/bookmark-landing-page",
+    "repoName": "bookmark-landing-page",
+    "brief": "",
+    "codeIcon": "assets/images/dot-blue.svg",
+    "code": "CSS"
+  }
+]

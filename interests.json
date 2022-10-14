@@ -1,0 +1,35 @@
+[
+  {
+    "icon": "assets/images/code.svg",
+    "interest": "Full-Stack Develoment"
+  },
+  {
+    "icon": "assets/images/code(2).svg",
+    "interest": "React Developer"
+  },
+  {
+    "icon": "assets/images/computer(1).svg",
+    "interest": "Blockchain"
+  },
+  {
+    "icon": "assets/images/hashtag.svg",
+    "interest": "Finance"
+  },
+  {
+    "icon": "assets/images/graduate.svg",
+    "interest": "Graduate"
+  },
+  {
+    "icon": "assets/images/people.svg",
+    "interest": "Available to Collaborate"
+  },
+  {
+    "icon": "assets/images/code(1).svg",
+    "interest": "Software Engineering"
+  },
+  {
+    "icon": "assets/images/pen(1).svg",
+    "interest": "Mentorship"
+  }
+  
+]

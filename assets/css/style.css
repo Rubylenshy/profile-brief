@@ -169,6 +169,7 @@ hr{
 .credentials-container{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .credentials-img{
     padding: 15px;
