@@ -52,6 +52,8 @@ h3{
 }
 body{
     padding: 40px 10%;
+    background: url(../images/bottom-bg.jpg) center no-repeat;
+    background-size: cover;
 }
 hr{
     border: 1px solid var(--very-dark-blue);
