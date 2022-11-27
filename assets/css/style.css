@@ -20,14 +20,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--white);
 }
 html{
     font-family: var(--ff-lexend);
-    background-color: var();
+    background-color: var(--dark-blue);
 }
+
 a,h1,h2,h3,p,span,button{
     text-decoration: none;
-    color: initial;
+    color: var(--white);
 }
 
 button{
@@ -40,7 +42,7 @@ button{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    box-shadow: 2px 5px 8px -4px var(--very-dark-blue);
+    /* box-shadow: 2px 5px 8px -4px var(--very-dark-blue); */
 }
 h2{
     font-size: 1.0em;
@@ -139,8 +141,8 @@ hr{
     flex-wrap: wrap;
 }
 .project-card{
-    width: 400px;
-    margin-bottom: 30px;
+    max-width: 400px;
+    margin: 0 30px 30px 0;
 }
 .project-card a:hover{
     text-decoration: underline;
@@ -204,6 +206,17 @@ footer{
 }
 
 @media (max-width: 800px) {
+
+    *{
+        color: initial;
+    }
+    a,h1,h2,h3,p,span{
+        text-decoration: none;
+        color: initial;
+    }
+    button{
+        color: var(--white);
+    }
     body{
         padding: 40px 5%;
         background: url(../images/bottom-bg.jpg) center no-repeat;
