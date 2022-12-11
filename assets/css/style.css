@@ -3,6 +3,7 @@
 :root{
     --ff-ubuntu: 'Ubuntu Mono', monospace; 
     --ff-lexend: 'Lexend Deca', sans-serif;
+    --ff-inter: 'Inter', sans-serif;
     /* Primary */
     --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 62%, 55%);
@@ -23,7 +24,7 @@
     color: var(--white);
 }
 html{
-    font-family: var(--ff-lexend);
+    font-family: var(--ff-inter);
     background-color: var(--dark-blue);
 }
 
@@ -33,7 +34,7 @@ a,h1,h2,h3,p,span,button{
 }
 
 button{
-    font-family: var(--ff-lexend);
+    font-family: var(--ff-inter);
     background: var(--very-dark-blue);
     color: var(--white);
     display: flex;
